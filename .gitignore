@@ -1,0 +1,40 @@
+# Ignore all temp files/folders
+*temp*
+# Except "template"
+!*template*
+
+# Ignore files/folder starting with double underscore
+__*
+# Except init
+!__init__.py
+
+### BUILD ARTIFACTS ###
+**/_build/
+
+### LOGGING STUFF ###
+log
+**/*.log
+
+### ENVIRONMENT SETUP ###
+**/.venv*
+
+### OSX STUFF ###
+.DS_Store
+
+### LATEX STUFF ###
+
+# Ignore everything in build folder that is in any other folder
+**/build/*
+# Except PDF files
+!**/build/**/*.pdf
+
+### NODE/JS STUFF ###
+**/node_modules
+
+### PYTHON STUFF ###
+__pycache__/
+*.py[cod]
+*$py.class
+
+### JUPYTER NB STUFF ###
+.ipynb_checkpoints
