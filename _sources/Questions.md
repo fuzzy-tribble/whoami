@@ -1,6 +1,8 @@
 # Questions and Explorations
 
-These are the questions I think and write about. My explorations.
+The messy version of the things my mind likes to think about....my (day/night)dreams and explorations.
+
+*(The pretty version (ie. my research interests) is here: {ref}`Research Interests`)*
 
 ---
 
@@ -10,7 +12,7 @@ These are the questions I think and write about. My explorations.
 We try to understand the nature of the universe without a sufficient understanding of the computational processes that it would take, if our minds are capable of doing so, or if not what kind of information processing system would be capable of it. **Does it take a universe to understand the universe? Or a universe-like thing?**
 If there is enough reducibility in the universe, perhaps the complexity of the computer required to understand the universe need only be as complex as the configurations of its reducible parts.
 
-From the perspective of an information processing system embedded in the system we are trying to understand (ie. humans in the universe), **how can we formalize their coupling so that we have a better understanding of our human-ness (limitations/potential/etc)?** Are our current best explanations of physical phenomena in the universe (ie. electromagnetism, quantum mechanics, etc) human-centric (ie. **would an alien brain invent the same physics**)? What can we learn from **examining our modalities of explanation**
+From the perspective of an information processing system embedded in the system we are trying to understand (ie. humans in the universe), **how can we formalize their coupling so that we have a better understanding of our human-ness (limitations/potential/etc)?** Are our current best explanations of physical phenomena in the universe (ie. electromagnetism, quantum mechanics, etc) human-centric (ie. **would an alien brain invent the same physics**)? How many different consistent frameworks exist to explain newtonian mechanical systems, quantum systems, etc. What can we learn from **examining our modalities of explanation**
 of physical systems (ie. dynamical laws and counterfactual explanations in physics)? What are all the ways of knowing? Is there a definable information theoretic 
 **coupling between a question and an explanation?** If so, can it perhaps guide our discovery process? How can **engineering diverse sets of other communicative intelligent systems** help us see our human-ness?
 
@@ -57,7 +59,7 @@ For example,
 - With what efficiency does reconfiguration need to occur? 
 - What does the efficiency/timeline of execution of a configuration need to be? 
 
-Generally, **How can we engineer nano/micro/macro-scale base units that reconfigure to **minimize surprise similar to neuronal** base units?**
+Also, **How can we engineer nano/micro/macro-scale base units that reconfigure to **minimize surprise similar to neuronal** base units?**
 
 ---
 
@@ -77,7 +79,7 @@ Another example might be society's tendency to centralize and decentralize its s
 (universality)=
 ## About universality
 
-**What do pervasive paradoxes in mathematics and other fields tell us about the nature of the universe? Do paradoxes help guide us to contextualized models (ie rule systems) of the universe? Do they hint at non-universality in computation? Is there a universal framework for understanding all physical phenomena?**
+**What do pervasive paradoxes in mathematics and other fields tell us about the nature of the universe? Do paradoxes help guide us to contextualized models (ie rule systems) of the universe? Do they hint at non-universality in computation? Is there a universal framework for understanding all physical phenomena?** Are special numbers in physics like settings in a universe controls system? Are they just the only settings that work to make life/consciousness work?
 
 ---
 
@@ -93,4 +95,4 @@ What about things that have no strong linguistic encoding but are still part of 
 (collective_conscious)=
 ## About collective conscious
 
-**What can we accomplish together that we cannot accomplish as individuals or small groups?** What if people from around the world could work together as seamlessly as the part within my body and mind?
+**What can we accomplish together that we cannot accomplish as individuals or small groups?** What if people from around the world could work together as seamlessly as the part within my body and mind? How can we predict the points where more becomes different in complex systems and what the next stage of different (rules) will be?

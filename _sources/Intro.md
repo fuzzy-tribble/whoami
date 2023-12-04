@@ -1,4 +1,4 @@
-# fuzzy-tribble
+# whoami
 
 This site is your API to my meat computer 🧠.
 
