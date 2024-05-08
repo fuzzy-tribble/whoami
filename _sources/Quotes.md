@@ -19,6 +19,12 @@
 ```
 
 ```{epigraph}
+"[A Computer Scientist] Restricting attention to conventional computation would be akin to biologists restricting their study to bacteria (because they are so numerous) while ignoring all other living things" 
+
+-- B.J. MacLennan
+```
+
+```{epigraph}
 "Natural selection may explain the survival of the fittest, but it cannot explain the arrival of the fittest."
 
 -- Hugo de Vries
@@ -76,12 +82,6 @@ One of the wierd things about being an academic is that you have to walk this ti
 "...for the knowledge of certain principles easily compensates the last of knowledge of certain facts"
 
 -- Claude Adrien Helvetius
-```
-
-```{epigraph}
-"[A Computer Scientist] Restricting attention to conventional computation would be akin to biologists restricting their study to bacteria (because they are so numerous) while ignoring all other living things" 
-
--- B.J. MacLennan
 ```
 
 ```{epigraph}
