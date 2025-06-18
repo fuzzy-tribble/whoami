@@ -1,0 +1,623 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>How nature innovates - napkin calcs &#8212; whoami</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '24-03 How Nature Innovates';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The Representational Capacity of Language and the Modalities of Explanation" href="23-08%20Representational%20Capacity%20of%20Language%20and%20Modalities%20of%20Explanation.html" />
+    <link rel="prev" title="Context Completes the Rule" href="goal%20directed%20programming/Context%20Completes%20the%20Rule.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="Intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/avatar.png" class="logo__image only-light" alt="whoami - Home"/>
+    <script>document.write(`<img src="_static/avatar.png" class="logo__image only-dark" alt="whoami - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="Intro.html">
+                    whoami
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="about/Background%20and%20Experience.html">Background and Experience</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about/Research.html">Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Quotes.html">Quotes</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.google.com/document/d/1olwUo0M6z9IW0qa0h_eDB4jw2wyJrd7B/edit?usp=sharing&amp;ouid=118268467311465142155&amp;rtpof=true&amp;sd=true">CV</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Articles</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="25-06%20Rethinking%20Accessibility%20in%20the%20Age%20of%20Cognitive%20Pluralism.html">'25 Rethinking Accessibility in the Age of Cognitive Pluralism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="goal%20directed%20programming/Context%20Completes%20the%20Rule.html">'25 Context Completes the Rule</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">'24 How Nature Innovates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="23-08%20Representational%20Capacity%20of%20Language%20and%20Modalities%20of%20Explanation.html">'23 Representational Capacity of Language and Modalities of Explanation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="23-05%20Rethinking%20the%20Role%20of%20Qualitative%20Methods.html">'23 Rethinking the Role of Qualitative Methods</a></li>
+<li class="toctree-l1"><a class="reference internal" href="22-10%20What%20is%20Solvability%3F.html">'22 What is Solvability?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="22-03%20Primordial%20Soup%20to%20Active%20Inference.html">'22 Primordial Soup to Active Inference</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/24-03 How Nature Innovates.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>How nature innovates - napkin calcs</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-long-should-it-take-for-bacteria-to-innovate-to-survive-penicillin">How long should it take for bacteria to innovate to survive penicillin?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#expected-time-for-random-discovery">Expected Time for Random Discovery</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-is-possibility-space-structured-such-that-random-search-can-find-solutions">How is possibility space structured (such that random search can find solutions)?</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="how-nature-innovates-napkin-calcs">
+<h1>How nature innovates - napkin calcs<a class="headerlink" href="#how-nature-innovates-napkin-calcs" title="Permalink to this heading">#</a></h1>
+<p><span style="float:right; font-size:0.9em;">March 2024</span></p>
+<span style="font-size:0.9em; font-style:italic;">
+#evolution
+</span>
+</br></br><section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<p>In <em>Arrival of the Fittest</em>, <a class="reference external" href="https://www.ieu.uzh.ch/wagner/">Andreas Wagner</a> suggests that robustness facilitates evolutionary innovation (discovery of novel function). His lab looks at innovations in metabolism, regulation, and macromolecules and ask what common principles of innovation exist. This includes questions like how nature: preserves what works while exploring the new? discovers solutions in such a large solution space?</p>
+<p>This notebook explores these claims and ideas.</p>
+</section>
+<section id="how-long-should-it-take-for-bacteria-to-innovate-to-survive-penicillin">
+<h2>How long should it take for bacteria to innovate to survive penicillin?<a class="headerlink" href="#how-long-should-it-take-for-bacteria-to-innovate-to-survive-penicillin" title="Permalink to this heading">#</a></h2>
+<p>This question helps us understand whether nature is intelligently exploring a solution space or if the structure of that space simply allows effective random exploration. Specifically, we want to calculate the probability that a population will stumble upon mutation <strong>X</strong> purely by chance.</p>
+<p>In <em>Arrival of the Fittest</em>, Andreas Wagner presents a fresh perspective on evolutionary innovation: robustness—the capacity of biological systems to withstand change—actually facilitates the discovery of novel functions. By conceptualizing genes, proteins, and metabolic pathways as vast “genotype networks,” Wagner shows how populations can drift neutrally through these networks, preserving existing functions while uncovering new adaptive opportunities. This framework explains how complexity and diversity emerge naturally in biological systems without requiring improbable one-step mutations.</p>
+<section id="expected-time-for-random-discovery">
+<h3>Expected Time for Random Discovery<a class="headerlink" href="#expected-time-for-random-discovery" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p><strong>Space size</strong><br />
+$<span class="math notranslate nohighlight">\(
+S = 10^{X}
+\)</span>$</p></li>
+<li><p><strong>New variants per generation</strong><br />
+$<span class="math notranslate nohighlight">\(
+V = N_{\mathrm{cells}} \times \mu
+\)</span>$</p></li>
+<li><p><strong>Probability of success per generation</strong><br />
+$<span class="math notranslate nohighlight">\(
+p = \frac{V}{S}
+\)</span>$</p></li>
+<li><p><strong>Expected generations to discovery</strong><br />
+$<span class="math notranslate nohighlight">\(
+E[G] = \frac{1}{p} = \frac{S}{V}
+\)</span>$</p></li>
+<li><p><strong>Expected time (hours)</strong><br />
+$<span class="math notranslate nohighlight">\(
+E[T_{\mathrm{hrs}}] = E[G] \times t_{\mathrm{gen}}
+\)</span>$</p></li>
+<li><p><strong>Expected time (years)</strong><br />
+$<span class="math notranslate nohighlight">\(
+E[T_{\mathrm{yrs}}] = \frac{E[T_{\mathrm{hrs}}]}{24 \times 365}
+\)</span>$</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+
+<span class="c1"># ------------------------------------------</span>
+<span class="c1"># PARAMETERS</span>
+<span class="c1"># ------------------------------------------</span>
+<span class="n">X_log10</span> <span class="o">=</span> <span class="mi">130</span>         <span class="c1"># log10 of space size (e.g., proteins ~20^100 ≈10^130)</span>
+<span class="n">N_cells</span> <span class="o">=</span> <span class="mf">1e9</span>         <span class="c1"># number of bacteria in the culture</span>
+<span class="n">mu</span> <span class="o">=</span> <span class="mf">5e-3</span>             <span class="c1"># mutation rate per genome per generation</span>
+<span class="n">t_gen_hours</span> <span class="o">=</span> <span class="mf">0.5</span>     <span class="c1"># time per generation in hours (≈30 minutes)</span>
+
+<span class="c1"># ------------------------------------------</span>
+<span class="c1"># CALCULATIONS</span>
+<span class="c1"># ------------------------------------------</span>
+<span class="c1"># 1. Calc solution space size: S = 10^X_log10</span>
+<span class="n">S</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">**</span> <span class="n">X_log10</span>
+
+<span class="c1"># 2. Calc new variants per generation: V = N_cells * mu</span>
+<span class="n">V</span> <span class="o">=</span> <span class="n">N_cells</span> <span class="o">*</span> <span class="n">mu</span>
+
+<span class="c1"># 3. Prob of success per generation: p = V / S</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">V</span> <span class="o">/</span> <span class="n">S</span>
+
+<span class="c1"># 4. Expected num of generations to discovery: E_gen = 1 / p</span>
+<span class="n">E_gen</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="n">p</span>
+
+<span class="c1"># 5. Expected time (hours): E_time_hours = E_gen * t_gen_hours</span>
+<span class="n">E_time_hours</span> <span class="o">=</span> <span class="n">E_gen</span> <span class="o">*</span> <span class="n">t_gen_hours</span>
+
+<span class="c1"># 6. And in years that is...: E_time_years = E_time_hours / (24*365)</span>
+<span class="n">E_time_years</span> <span class="o">=</span> <span class="n">E_time_hours</span> <span class="o">/</span> <span class="p">(</span><span class="mi">24</span> <span class="o">*</span> <span class="mi">365</span><span class="p">)</span>
+
+<span class="c1"># ------------------------------------------</span>
+<span class="c1"># OUTPUT RESULTS</span>
+<span class="c1"># ------------------------------------------</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;So, the expected number of generations to hit one specific sequence in a 10^</span><span class="si">{</span><span class="n">X_log10</span><span class="si">}</span><span class="s2">-sized space is ≈ </span><span class="si">{</span><span class="n">E_gen</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2"> generations.&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;So, the expected time is ≈ </span><span class="si">{</span><span class="n">E_time_hours</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2"> hours (</span><span class="si">{</span><span class="n">E_time_years</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2"> years).&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>So, the expected number of generations to hit one specific sequence in a 10^130-sized space is ≈ 2.00e+123 generations.
+So, the expected time is ≈ 1.00e+123 hours (1.14e+119 years).
+</pre></div>
+</div>
+</div>
+</div>
+<blockquote>
+<div><p><strong>Conclusion:</strong><br />
+Blind sampling of a <span class="math notranslate nohighlight">\(10^{130}\)</span>-size space is essentially impossible.<br />
+Evolution must exploit <strong>local</strong> structure paths—rather than a pure random search.</p>
+</div></blockquote>
+<p>Wagner talks about considering strings of amino acids 100 letters long with</p>
+<ul class="simple">
+<li><p>10^130 proteins (library of short proteins)</p></li>
+<li><p>10^700 regulatory circuits</p></li>
+<li><p>10^1000 metabolism</p></li>
+</ul>
+</section>
+</section>
+<section id="how-is-possibility-space-structured-such-that-random-search-can-find-solutions">
+<h2>How is possibility space structured (such that random search can find solutions)?<a class="headerlink" href="#how-is-possibility-space-structured-such-that-random-search-can-find-solutions" title="Permalink to this heading">#</a></h2>
+<p>We know from experimental evolution—often of bacteria—that novel functions can emerge remarkably quickly. To explain this, the underlying “possibility space” (or genotype space) must be richly structured. Andreas Wagner calls this structure <strong>genotype networks</strong>: vast, interconnected sets of genotypes that all map to the same phenotype.</p>
+<ol class="arabic simple">
+<li><p><strong>Synonymous texts as an analogy</strong></p>
+<ul class="simple">
+<li><p>Imagine every possible amino‐acid sequence as a “text.” Two such texts—a plant globin and an insect globin—both transport O₂, yet differ by roughly 90 % of their residues. Despite this divergence, they fold into virtually identical 3D shapes and bind oxygen in the same way.</p></li>
+<li><p>All sequences that perform the same function form a “neighborhood” in sequence space. Within this neighborhood, single mutations—or a few steps—lead from one functional sequence to another without losing the phenotype.</p></li>
+</ul>
+</li>
+<li><p><strong>Sprawling genotype networks</strong></p>
+<ul class="simple">
+<li><p>Walking through this neighborhood, one can move in many directions while preserving function. Such connectivity means that a population can accumulate mutations, drift across the network, and stumble upon adjacent regions that encode new or improved functions—yet never stray into nonfunctional territory.</p></li>
+</ul>
+</li>
+<li><p><strong>Robustness enables innovation</strong></p>
+<ul class="simple">
+<li><p><strong>Robustness</strong> (the ability of a system to tolerate mutations without phenotypic change) creates these expansive networks.</p></li>
+<li><p>Without robustness, single mutations would more often be deleterious, collapsing exploration. With robustness, populations can “scour” large regions of genotype space, making random search surprisingly effective.</p></li>
+</ul>
+</li>
+<li><p><strong>Generalizing across biological “libraries”</strong></p>
+<ul class="simple">
+<li><p>Wagner argues the same principles apply not only to proteins but to metabolic pathways, regulatory circuits, and macromolecular assemblies. In each case, functional diversity arises from richly interconnected genotype networks.</p></li>
+<li><p><strong>Core takeaway:</strong> Robust genotype networks—and the diverse neighborhoods they create—are both necessary and sufficient for biological innovation.</p></li>
+</ul>
+</li>
+<li><p><strong>Implications for engineered systems</strong></p>
+<ul class="simple">
+<li><p>Like nature’s <strong>Lego principle</strong>, a small set of building blocks plus simple linking rules can yield an immense repertoire of functional assemblies.</p></li>
+<li><p>Minimal complexity and modularity aren’t obstacles to innovation; they are enablers.</p></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<div><p><strong>Conclusion:</strong><br />
+Nature’s “libraries” are organized so that most functions have many synonymous solutions. Random mutation—what organisms do best—can then efficiently explore these networks, conserving existing functions while discovering new ones.</p>
+</div></blockquote>
+<hr class="docutils" />
+<p><strong>Sources:</strong></p>
+<ul class="simple">
+<li><p>Andreas Wagner, <em>Arrival of the Fittest</em> (2014)</p></li>
+<li><p>“Arrival of the Fittest” talk at the Royal Institution, 13 November 2014 (YouTube)</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="goal%20directed%20programming/Context%20Completes%20the%20Rule.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Context Completes the Rule</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="23-08%20Representational%20Capacity%20of%20Language%20and%20Modalities%20of%20Explanation.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">The Representational Capacity of Language and the Modalities of Explanation</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-long-should-it-take-for-bacteria-to-innovate-to-survive-penicillin">How long should it take for bacteria to innovate to survive penicillin?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#expected-time-for-random-discovery">Expected Time for Random Discovery</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-is-possibility-space-structured-such-that-random-search-can-find-solutions">How is possibility space structured (such that random search can find solutions)?</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>
+  <p><br> DM fuzzy.tribble on Discord 🖖</p>
+</div>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
