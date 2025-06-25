@@ -19,7 +19,7 @@
 ```
 
 ```{epigraph}
-“Taste the world and then renounce”
+“Time, space and causation are the three prime conditionings or filters that affect the mind. But you can lead your mind beyond these conditions. Time is the most powerful of all the filters that condition the mind."
 
 -- Swami Rama
 ```
